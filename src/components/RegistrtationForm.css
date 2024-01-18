@@ -17,7 +17,7 @@ body {
 
 .form-container {
     position: relative;
-    width: 379px;
+    width: 329px;
     padding: 20px 60px;
     border-radius: 20px;
     background: #FFF;
@@ -30,9 +30,9 @@ body {
     color: #000;
     font-size: 22px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .form-container form {
@@ -48,24 +48,18 @@ body {
     font-size: 13px;
 }
 
-/*.form-container input {*/
-/*    width: 100%;*/
-/*    border: none;*/
-/*    border-bottom: 1px solid #000;*/
-/*    padding: 0;*/
-/*    margin-bottom: 20px;*/
-/*}*/
 
 .form-container input {
-    width: 100%;
+    width: 90%;
     border: none;
-    border-bottom: 1px solid #000; /* Убедитесь, что толщина линии подходит вам */
-    padding: 8px 0; /* Уменьшаем padding снизу */
-    margin-bottom: 20px;
-    line-height: 1.2; /* Устанавливаем высоту строки */
-    vertical-align: middle; /* Выравниваем текст по вертикали */
-    box-sizing: border-box; /* Включаем padding и border в общую ширину */
-    font-size: 18px; /* Размер шрифта для улучшения читаемости */
+    border-bottom: 1px solid #000;
+    padding: 8px 0;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: black;
 }
 
 .form-container button {
@@ -89,8 +83,11 @@ body {
 
 .form-container input {
     width: 100%;
-    padding: 0 0;
     margin: 0 0 20px;
 }
 
-
+.form-container input::placeholder {
+    color: #9A9A9A;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
